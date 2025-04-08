@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-//100¹ø ÁÖ»çÀ§¸¦ ´øÁ®¼­ ºóµµ¼ö¸¦ ±¸ÇÏ´Â ÇÁ·Î±×·¥ ÀÛ¼º
+//100ë²ˆ ì£¼ì‚¬ìœ„ë¥¼ ë˜ì ¸ì„œ ë¹ˆë„ìˆ˜ë¥¼ êµ¬í•˜ëŠ” í”„ë¡œê·¸ëž¨ ìž‘ì„±
 
 
 
@@ -12,10 +12,10 @@ int main()
 	int freq[6] = { 0 };
 	int n;
 
-	printf("ÁÖ»çÀ§¸¦ ±¼¸± È½¼ö ÁöÁ¤ : ");
+	printf("ì£¼ì‚¬ìœ„ë¥¼ êµ´ë¦´ íšŸìˆ˜ ì§€ì • : ");
 	scanf("%d", &n);
 
-	srand(time(NULL));//½ÇÇàÇÒ¶§¸¶´Ù ´Ù¸¥ ³­¼ö°¡ ³ª¿À°Ô ÇÏ´Â ¼³Á¤
+	srand(time(NULL));//ì‹¤í–‰í• ë•Œë§ˆë‹¤ ë‹¤ë¥¸ ë‚œìˆ˜ê°€ ë‚˜ì˜¤ê²Œ í•˜ëŠ” ì„¤ì •
 
 	for (int i = 0; i < n; i++) {
 		int random = 1 + rand() % 6;
