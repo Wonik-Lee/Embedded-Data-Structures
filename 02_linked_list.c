@@ -9,7 +9,7 @@ typedef struct node
 
 node* head, * tail;
 
-//list ÃÊ±âÈ­
+//list list 
 void init_list()
 {
 	head = (node*)calloc(1, sizeof(node));
